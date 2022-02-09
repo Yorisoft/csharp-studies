@@ -1,0 +1,28 @@
+# Add files/folders to ignored by git
+
+desktop.ini
+.DS_Store
+TestResults/
+
+# Build results
+.vs
+.vscode
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+#Paket dependency manager
+.paket/
+paket-files/

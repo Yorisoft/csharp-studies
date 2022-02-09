@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="CSharpTDD.Beginning" hostname="DESKTOP-03BGCAN" package="not available" id="0" tests="6" failures="0" errors="0" skipped="0" time="0.011" timestamp="2022-02-06T19:36:41">
+    <properties />
+    <testcase name="CSharpTDD.Beginning.CSharpConstructor_Default_ReturnsObject" classname="CSharpTDD.Beginning" time="0.000" status="1" />
+    <testcase name="CSharpTDD.Beginning.greetings_Default_ReturnDefaultString" classname="CSharpTDD.Beginning" time="0.000" status="1" />
+    <testcase name="CSharpTDD.Beginning.CSharpDestructor_ReturnsNullPointer" classname="CSharpTDD.Beginning" time="0.007" status="1" />
+    <testcase name="CSharpTDD.Beginning.greetings_StringName_ReturnStringWithName(name: &quot;Yelsin&quot;)" classname="CSharpTDD.Beginning" time="0.000" status="1" />
+    <testcase name="CSharpTDD.Beginning.greetings_StringName_ReturnStringWithName(name: &quot;Yorisoft&quot;)" classname="CSharpTDD.Beginning" time="0.004" status="1" />
+    <testcase name="CSharpTDD.Beginning.greetings_StringName_ReturnStringWithName(name: &quot;Jessy&quot;)" classname="CSharpTDD.Beginning" time="0.000" status="1" />
+    <system-out />
+    <system-err />
+  </testsuite>
+  <testsuite name="CSharpTDD.Variables" hostname="DESKTOP-03BGCAN" package="not available" id="1" tests="6" failures="2" errors="0" skipped="0" time="0.010" timestamp="2022-02-06T19:36:41">
+    <properties />
+    <testcase name="CSharpTDD.Variables.getNewInteger_ByteNum_CreatesNewInt(num: 2)" classname="CSharpTDD.Variables" time="0.000" status="1" />
+    <testcase name="CSharpTDD.Variables.getNewInteger_ByteNum_CreatesNewInt(num: 0)" classname="CSharpTDD.Variables" time="0.000" status="1" />
+    <testcase name="CSharpTDD.Variables.getNewFloat_ByteNum_CreatesNewFloat(num: 2)" classname="CSharpTDD.Variables" time="0.002" status="0">
+      <failure message="Assert.Equal() Failure&#xD;&#xA;Expected: 0&#xD;&#xA;Actual:   2" type="not specified">   at CSharpTDD.Variables.getNewFloat_ByteNum_CreatesNewFloat(Byte num) in C:\Users\yoris\Desktop\CSharpTDD\Beginning.cs:line 120</failure>
+    </testcase>
+    <testcase name="CSharpTDD.Variables.getNewFloat_ByteNum_CreatesNewFloat(num: 1)" classname="CSharpTDD.Variables" time="0.000" status="0">
+      <failure message="Assert.Equal() Failure&#xD;&#xA;Expected: 0&#xD;&#xA;Actual:   1" type="not specified">   at CSharpTDD.Variables.getNewFloat_ByteNum_CreatesNewFloat(Byte num) in C:\Users\yoris\Desktop\CSharpTDD\Beginning.cs:line 120</failure>
+    </testcase>
+    <testcase name="CSharpTDD.Variables.getNewFloat_ByteNum_CreatesNewFloat(num: 0)" classname="CSharpTDD.Variables" time="0.002" status="1" />
+    <testcase name="CSharpTDD.Variables.getNewInteger_ByteNum_CreatesNewInt(num: 1)" classname="CSharpTDD.Variables" time="0.006" status="1" />
+    <system-out />
+    <system-err />
+  </testsuite>
+</testsuites>
